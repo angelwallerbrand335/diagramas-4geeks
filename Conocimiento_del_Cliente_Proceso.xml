@@ -1,78 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net">
-  <diagram name="CONOCIMIENTO DEL CLIENTE - PROCESO">
-    <mxGraphModel dx="1200" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2000">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
+  <diagram name="CONOCIMIENTO DEL CLIENTE - PROCESO" id="0">
+    <mxGraphModel dx="2246" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2000" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- TITULO -->
-        <mxCell id="2" value="CONOCIMIENTO DEL CLIENTE&#xa;Proceso de Solicitud, Validación y Aprobación" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="250" y="20" width="700" height="80" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CONOCIMIENTO DEL CLIENTE&#xa;Proceso de Solicitud, Validación y Aprobación" vertex="1">
+          <mxGeometry height="80" width="700" x="320" y="10" as="geometry" />
         </mxCell>
-
-        <!-- INICIO -->
-        <mxCell id="3" value="INICIO&#xa;Solicitud de Vinculación del Cliente" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="400" y="140" width="350" height="80" as="geometry"/>
+        <mxCell id="3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="INICIO&#xa;Solicitud de Vinculación del Cliente" vertex="1">
+          <mxGeometry height="80" width="350" x="510" y="200" as="geometry" />
         </mxCell>
-
-        <!-- ENVIO CORREO -->
-        <mxCell id="4" value="Enviar correo electrónico solicitando documentación obligatoria&#xa;Adjuntar listado de requisitos y formatos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="330" y="260" width="490" height="100" as="geometry"/>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" value="Enviar correo electrónico solicitando documentación obligatoria&#xa;Adjuntar listado de requisitos y formatos" vertex="1">
+          <mxGeometry height="100" width="490" x="440" y="330" as="geometry" />
         </mxCell>
-
-        <!-- RECEPCION -->
-        <mxCell id="5" value="Recepción de Documentos del Cliente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="400" width="350" height="80" as="geometry"/>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Recepción de Documentos del Cliente" vertex="1">
+          <mxGeometry height="80" width="350" x="510" y="520" as="geometry" />
         </mxCell>
-
-        <!-- REVISION -->
-        <mxCell id="6" value="Revisión Documental&#xa;- Vigencia&#xa;- Firmas y huellas&#xa;- Coherencia información&#xa;- Estados Financieros NIIF&#xa;- Certificados (≤90 días)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="300" y="520" width="550" height="150" as="geometry"/>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Revisión Documental&#xa;- Vigencia&#xa;- Firmas y huellas&#xa;- Coherencia información&#xa;- Estados Financieros NIIF&#xa;- Certificados (≤90 días)" vertex="1">
+          <mxGeometry height="150" width="550" x="415" y="740" as="geometry" />
         </mxCell>
-
-        <!-- DECISION DOCUMENTOS -->
-        <mxCell id="7" value="¿Documentos completos y correctos?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="430" y="710" width="260" height="120" as="geometry"/>
+        <mxCell id="7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Documentos completos y correctos?" vertex="1">
+          <mxGeometry height="120" width="260" x="560" y="1000" as="geometry" />
         </mxCell>
-
-        <!-- RETROALIMENTACION -->
-        <mxCell id="8" value="Enviar correo de retroalimentación&#xa;Solicitar correcciones o documentos faltantes&#xa;Esperar nueva documentación" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="100" y="850" width="350" height="130" as="geometry"/>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Enviar correo de retroalimentación&#xa;Solicitar correcciones o documentos faltantes&#xa;Esperar nueva documentación" vertex="1">
+          <mxGeometry height="130" width="350" x="10" y="750" as="geometry" />
         </mxCell>
-
-        <!-- LISTAS RESTRICTIVAS -->
-        <mxCell id="9" value="Verificación en Listas Restrictivas&#xa;- Empresa&#xa;- Representante Legal&#xa;- Accionistas&#xa;- Contador / Revisor Fiscal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="450" y="880" width="450" height="150" as="geometry"/>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" value="Verificación en Listas Restrictivas&#xa;- Empresa&#xa;- Representante Legal&#xa;- Accionistas&#xa;- Contador / Revisor Fiscal" vertex="1">
+          <mxGeometry height="150" width="450" x="465" y="1230" as="geometry" />
         </mxCell>
-
-        <!-- DECISION LISTAS -->
-        <mxCell id="10" value="¿Coincidencias en listas?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1070" width="260" height="120" as="geometry"/>
+        <mxCell id="10" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" value="¿Coincidencias en listas?" vertex="1">
+          <mxGeometry height="120" width="260" x="555" y="1480" as="geometry" />
         </mxCell>
-
-        <!-- RECHAZO -->
-        <mxCell id="11" value="Rechazar Vinculación&#xa;Informar al Cliente&#xa;Reportar a Oficial de Cumplimiento" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1230" width="350" height="100" as="geometry"/>
+        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Rechazar Vinculación&#xa;Informar al Cliente&#xa;Reportar a Oficial de Cumplimiento" vertex="1">
+          <mxGeometry height="100" width="350" x="240" y="1645" as="geometry" />
         </mxCell>
-
-        <!-- APROBACION -->
-        <mxCell id="12" value="Aprobar Cliente&#xa;Crear en sistema&#xa;Asignar código interno&#xa;Activar para operaciones" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1230" width="350" height="110" as="geometry"/>
+        <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" value="Aprobar Cliente&#xa;Crear en sistema&#xa;Asignar código interno&#xa;Activar para operaciones" vertex="1">
+          <mxGeometry height="110" width="350" x="740" y="1645" as="geometry" />
         </mxCell>
-
-        <!-- CONEXIONES -->
-        <mxCell id="e1" style="endArrow=block;" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e2" style="endArrow=block;" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e3" style="endArrow=block;" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e4" style="endArrow=block;" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e5" style="endArrow=block;" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e6" style="endArrow=block;" edge="1" parent="1" source="8" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e7" style="endArrow=block;" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e8" style="endArrow=block;" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e9" style="endArrow=block;" edge="1" parent="1" source="10" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e10" style="endArrow=block;" edge="1" parent="1" source="10" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
-
+        <mxCell id="e1" edge="1" parent="1" source="3" style="endArrow=block;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="4" style="endArrow=block;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="5" style="endArrow=block;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="6" style="endArrow=block;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="7" style="endArrow=block;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="8" style="endArrow=block;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" style="endArrow=block;" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="9" style="endArrow=block;" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="10" style="endArrow=block;" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="10" style="endArrow=block;" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,99 +1,64 @@
-<mxCell id="titulo_financiero" value="PROCESO DE ELABORACIÓN DEL INFORME FINANCIERO&#xa;Control, Análisis y Presentación de Estados Financieros" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-  <mxGeometry x="200" y="10" width="800" height="80" as="geometry"/>
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="Proceso Informe Financiero Empresa Bogotá">
-    <mxGraphModel dx="1200" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="2000">
+  <diagram name="PRO-FIN-01 Informe Financiero">
+    <mxGraphModel dx="1200" dy="2200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2200">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
 
+        <!-- TITULO -->
+        <mxCell id="2" value="PRO-FIN-01&#xa;PROCESO DE ELABORACIÓN DEL INFORME FINANCIERO&#xa;Control, Análisis y Presentación de Estados Financieros" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="10" width="800" height="90" as="geometry"/>
+        </mxCell>
+
         <!-- INICIO -->
-        <mxCell id="2" value="INICIO&#xa;Definir periodo contable (Mensual / Trimestral / Anual)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="350" y="40" width="350" height="80" as="geometry"/>
+        <mxCell id="3" value="INICIO&#xa;Definir Periodo Contable" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="350" height="80" as="geometry"/>
         </mxCell>
 
-        <!-- Recolección Documentos -->
-        <mxCell id="3" value="Recolección de Información Contable&#xa;- Facturas emitidas y recibidas&#xa;- Comprobantes de egreso e ingreso&#xa;- Extractos bancarios&#xa;- Nómina y seguridad social&#xa;- Impuestos (IVA, Retención, ICA)&#xa;- Soportes contables" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="160" width="450" height="160" as="geometry"/>
+        <!-- RECOLECCION -->
+        <mxCell id="4" value="Recolección Información Contable&#xa;- Facturación&#xa;- Bancos&#xa;- Nómina&#xa;- Impuestos&#xa;- Soportes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="550" height="140" as="geometry"/>
         </mxCell>
 
-        <!-- Validación -->
-        <mxCell id="4" value="Validar soportes&#xa;¿Información completa?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="390" y="360" width="270" height="120" as="geometry"/>
+        <!-- REGISTRO -->
+        <mxCell id="5" value="Registro en Software Contable&#xa;Causaciones y Conciliaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="450" height="110" as="geometry"/>
         </mxCell>
 
-        <!-- Solicitar ajustes -->
-        <mxCell id="5" value="Solicitar información faltante a áreas responsables" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="100" y="400" width="280" height="80" as="geometry"/>
+        <!-- BALANCE -->
+        <mxCell id="6" value="Generar Balance de Prueba" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="580" width="350" height="90" as="geometry"/>
         </mxCell>
 
-        <!-- Registro contable -->
-        <mxCell id="6" value="Registrar información en el software contable&#xa;- Clasificación cuentas PUC&#xa;- Causación contable&#xa;- Conciliaciones bancarias&#xa;- Ajustes contables" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="300" y="520" width="450" height="150" as="geometry"/>
+        <!-- ESTADOS -->
+        <mxCell id="7" value="Elaboración Estados Financieros NIIF&#xa;- Estado Situación Financiera&#xa;- Estado Resultados&#xa;- Flujo de Efectivo&#xa;- Notas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="550" height="150" as="geometry"/>
         </mxCell>
 
-        <!-- Revisión balances -->
-        <mxCell id="7" value="Generar Balance de Prueba&#xa;Revisar inconsistencias contables" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="710" width="350" height="100" as="geometry"/>
+        <!-- ANALISIS -->
+        <mxCell id="8" value="Análisis Financiero e Indicadores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="900" width="450" height="110" as="geometry"/>
         </mxCell>
 
-        <!-- Decisión inconsistencias -->
-        <mxCell id="8" value="¿Existen inconsistencias?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="400" y="850" width="250" height="120" as="geometry"/>
+        <!-- APROBACION -->
+        <mxCell id="9" value="Revisión y Aprobación Gerencial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1040" width="350" height="90" as="geometry"/>
         </mxCell>
 
-        <!-- Ajustes -->
-        <mxCell id="9" value="Realizar ajustes contables&#xa;- Reclasificaciones&#xa;- Provisiones&#xa;- Depreciaciones&#xa;- Amortizaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="120" y="880" width="300" height="140" as="geometry"/>
+        <!-- EMISION -->
+        <mxCell id="10" value="Emitir Informe Financiero Final" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1170" width="350" height="90" as="geometry"/>
         </mxCell>
 
-        <!-- Estados Financieros -->
-        <mxCell id="10" value="Elaborar Estados Financieros&#xa;- Estado de Situación Financiera&#xa;- Estado de Resultados&#xa;- Flujo de Caja&#xa;- Cambios en el Patrimonio&#xa;- Notas a los EEFF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1020" width="450" height="160" as="geometry"/>
-        </mxCell>
-
-        <!-- Análisis -->
-        <mxCell id="11" value="Análisis Financiero&#xa;- Indicadores (Liquidez, Endeudamiento, Rentabilidad)&#xa;- Variación vs periodo anterior&#xa;- Cumplimiento presupuestal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1220" width="450" height="140" as="geometry"/>
-        </mxCell>
-
-        <!-- Revisión gerencia -->
-        <mxCell id="12" value="Revisión por Contador / Revisor Fiscal / Gerencia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1400" width="350" height="90" as="geometry"/>
-        </mxCell>
-
-        <!-- Aprobación -->
-        <mxCell id="13" value="¿Aprobado?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1530" width="200" height="110" as="geometry"/>
-        </mxCell>
-
-        <!-- Ajustes Finales -->
-        <mxCell id="14" value="Realizar correcciones solicitadas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1560" width="270" height="90" as="geometry"/>
-        </mxCell>
-
-        <!-- Informe Final -->
-        <mxCell id="15" value="Emitir Informe Financiero Final&#xa;- Firma contador&#xa;- Presentación a socios / junta&#xa;- Archivo documental&#xa;- Reportes DIAN si aplica" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1650" width="350" height="120" as="geometry"/>
-        </mxCell>
-
-        <!-- CONECTORES -->
-        <mxCell id="e1" style="endArrow=block;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e2" style="endArrow=block;" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e3" style="endArrow=block;" edge="1" parent="1" source="4" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e4" style="endArrow=block;" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e5" style="endArrow=block;" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e6" style="endArrow=block;" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e7" style="endArrow=block;" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e8" style="endArrow=block;" edge="1" parent="1" source="9" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e9" style="endArrow=block;" edge="1" parent="1" source="8" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e10" style="endArrow=block;" edge="1" parent="1" source="10" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e11" style="endArrow=block;" edge="1" parent="1" source="11" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e12" style="endArrow=block;" edge="1" parent="1" source="12" target="13"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e13" style="endArrow=block;" edge="1" parent="1" source="13" target="14"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e14" style="endArrow=block;" edge="1" parent="1" source="14" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e15" style="endArrow=block;" edge="1" parent="1" source="13" target="15"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- CONEXIONES -->
+        <mxCell id="e1" style="endArrow=block;" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=block;" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="endArrow=block;" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="endArrow=block;" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="endArrow=block;" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="endArrow=block;" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="endArrow=block;" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
 
       </root>
     </mxGraphModel>

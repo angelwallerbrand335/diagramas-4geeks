@@ -1,3 +1,5 @@
+<mxCell id="titulo_cotizacion" value="PROCESO DE COTIZACIÓN LOGÍSTICA&#xa;Recolección, Liquidación y Seguimiento Comercial" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+  <mxGeometry x="200" y="10" width="800" height="80" as="geometry"/>
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Proceso de Cotización" id="0">
     <mxGraphModel dx="988" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">

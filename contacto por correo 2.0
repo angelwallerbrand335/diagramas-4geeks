@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="PRO-MKT-01 Marketing Digital">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- TITULO -->
+        <mxCell id="titulo_proceso" value="PRO-MKT-01&#xa;PROCESO DE CAPTACIÓN DE CLIENTES&#xa;Marketing Digital – Email Empresarial" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="5" width="700" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- INICIO -->
+        <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Base de Datos -->
+        <mxCell id="3" value="Obtener Base de Datos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="420" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Selección -->
+        <mxCell id="4" value="Seleccionar Empresas y Validar Correo Activo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="420" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Generar Contenido -->
+        <mxCell id="5" value="Generar Contenido Personalizado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="420" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Redactar -->
+        <mxCell id="6" value="Redactar Correo y Asunto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="420" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Firma e Imagen -->
+        <mxCell id="7" value="Agregar Firma e Imagen Corporativa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="660" width="420" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Revisión -->
+        <mxCell id="8" value="Revisión Final (Ortografía y Adjuntos)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="320" y="770" width="420" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Decisión -->
+        <mxCell id="9" value="¿Correo Correcto?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="880" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Buscar otras opciones -->
+        <mxCell id="15" value="Buscar Otras Opciones de Contacto&#xa;- Teléfono&#xa;- LinkedIn&#xa;- Página web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1030" width="300" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Enviar -->
+        <mxCell id="10" value="Enviar Correo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1030" width="200" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Decisión Respuesta -->
+        <mxCell id="11" value="¿Empresa Responde?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1130" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Sin respuesta -->
+        <mxCell id="13" value="Registrar Sin Respuesta&#xa;Continuar con Siguiente Contacto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1280" width="320" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Área Comercial -->
+        <mxCell id="12" value="Remitir al Área Comercial&#xa;Enviar Información para Cotización" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1280" width="320" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- FIN -->
+        <mxCell id="14" value="FIN DEL PROCESO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1450" width="200" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- CONECTORES -->
+        <mxCell id="e1" style="endArrow=block;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=block;" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="endArrow=block;" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="endArrow=block;" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="endArrow=block;" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="endArrow=block;" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="endArrow=block;" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Decisión SI -->
+        <mxCell id="e8" style="endArrow=block;" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Decisión NO -->
+        <mxCell id="e9" style="endArrow=block;" edge="1" parent="1" source="9" target="15"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="endArrow=block;" edge="1" parent="1" source="15" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Flujo envío -->
+        <mxCell id="e11" style="endArrow=block;" edge="1" parent="1" source="10" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Respuesta SI -->
+        <mxCell id="e12" style="endArrow=block;" edge="1" parent="1" source="11" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Respuesta NO -->
+        <mxCell id="e13" style="endArrow=block;" edge="1" parent="1" source="11" target="13"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Finales -->
+        <mxCell id="e14" style="endArrow=block;" edge="1" parent="1" source="12" target="14"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e15" style="endArrow=block;" edge="1" parent="1" source="13" target="14"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Proceso Marketing Digital">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- TITULO -->
+        <mxCell id="titulo_proceso" value="PRO-MKT-01&#xa;PROCESO DE CAPTACIÓN DE CLIENTES&#xa;Marketing Digital – Email Empresarial" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="5" width="700" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- INICIO -->
+        <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Base de Datos -->
+        <mxCell id="3" value="Obtener Base de Datos&#xa;- Empresas objetivo&#xa;- Correos y teléfonos&#xa;- Sector económico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="420" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- Selección -->
+        <mxCell id="4" value="Seleccionar Empresas a Contactar&#xa;- Grupo inicial (10)&#xa;- Validar correo activo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="420" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- Generar Contenido -->
+        <mxCell id="5" value="Generar Contenido del Correo&#xa;- Parámetros definidos&#xa;- Personalización&#xa;- Apoyo IA si aplica" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="420" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- Redactar -->
+        <mxCell id="6" value="Redactar Correo&#xa;- Asunto personalizado&#xa;- Copiar texto final" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="420" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Firma e Imagen -->
+        <mxCell id="7" value="Agregar Firma e Imagen Corporativa&#xa;- Firma oficial&#xa;- Imagen institucional" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="770" width="420" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Revisión -->
+        <mxCell id="8" value="Revisión Final&#xa;- Ortografía&#xa;- Adjuntos correctos&#xa;- Datos correctos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="320" y="900" width="420" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- Decisión Correcto -->
+        <mxCell id="9" value="¿Correo Correcto?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1040" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Enviar -->
+        <mxCell id="10" value="Enviar Correo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1180" width="200" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Decisión Respuesta -->
+        <mxCell id="11" value="¿Empresa Responde?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1300" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Área Comercial -->
+        <mxCell id="12" value="Remitir al Área Comercial&#xa;- Enviar información recibida&#xa;- Registrar en control interno" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1450" width="320" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- Sin Respuesta -->
+        <mxCell id="13" value="Registrar como Sin Respuesta&#xa;Continuar con siguiente contacto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1450" width="320" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- FIN -->
+        <mxCell id="14" value="FIN DEL PROCESO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1620" width="200" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
